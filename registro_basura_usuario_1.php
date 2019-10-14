@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Registrar denuncia</title>
+  <title>Q'upa</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor_start/bootstrap/css/bootstrap.css" rel="stylesheet">

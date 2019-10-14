@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Registrar denuncia</title>
+  <title>Q'upa</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor_start/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -19,14 +19,17 @@
   
 </head>
 
+
+<body>
 <?php
 include("view/navbar.php");
 ?>
   <div class="abs-center">
 
-<body>
+
 
  <div class="container">
+ 
   <div class="row justify-content-center">
 
 
@@ -84,6 +87,10 @@ include("view/navbar.php");
 
 <div class="col-4 col-md-3 col-lg-2 col-xl px-1 px-md-3"><a data-fancybox data-src="#popup-18"><div class="articulos"><img src="https://www.juntaentregayrecicla.com.mx/wp/wp-content/uploads/2017/10/kit-de-ayuda.png" alt="Kit de ayuda" class="img-fluid" onclick="location.href='registro_basura_usuario_2.php';">
   <div class="titulo">Kit de ayuda</div></div></a></div>
+  </div>
+  </div>
+  </div>
+
   <!-- /.container -->
 
   <!-- Google maps -->
