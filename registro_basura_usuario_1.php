@@ -38,14 +38,16 @@ include("view/navbar.php");
             <div class="panel-body">
               <label for="uploadedFile">
                 <div id="img2">
-                  <img class="mx-auto d-block" id="img" src="images/organico.png">
+                  <img class="mx-auto d-block" id="img" src="images/inorganico.png" onclick="location.href='registro_basura_usuario_inorg.php';">
                     </label>
                 </div>
-             <!-- <input type="file" name="uploadedFile" id="uploadedFile" accept="video/*" capture="camcorder">-->
-             <input type="button" onclick="location.href='registro_basura_usuario_org.php';">
+             <!-- <input type="file" name="uploadedFile" id="uploadedFile" accept="video/*" capture="camcorder">
+              <input type="button" onclick="location.href='registro_basura_usuario_inorg.php';" >
+             -->
+            
+            </div> 
             </div>
-          </div><p>Organico</p>
-
+          <div class="text-center"><h2>Inorganico</h2></div>
         </div>
 
 
@@ -61,15 +63,19 @@ include("view/navbar.php");
             <div class="panel-body">
               <label for="uploadedFile"  >
                 <div id="img2" >
-                  <img class="mx-auto d-block" id="img" src="images/inorganico.png" >
+                  <img class="mx-auto d-block" id="img" src="images/organico.png" onclick="location.href='registro_basura_usuario_inorg.php';">
                  
                     </label>
 
                 </div>
-             <!-- <input type="file" name="uploadedFile" id="uploadedFile" accept="video/*" capture="camcorder">-->
-             <input type="button" onclick="location.href='registro_basura_usuario_inorg.php';" >
-            </div> 
-          </div><p>Inorganico</p>
+             <!-- <input type="file" name="uploadedFile" id="uploadedFile" accept="video/*" capture="camcorder">
+             <input type="button" onclick="location.href='registro_basura_usuario_org.php';">
+             -->
+             
+            </div>
+          </div>
+          <div class="text-center"><h2>Organico</h2></div>
+
         </div>
 
 
